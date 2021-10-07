@@ -1,9 +1,12 @@
  @import url(./reset.css);
  body {
+     margin: 0 auto;
      font-size: 80%;
      font-family: 'Courier new', 'Courier New', Courier, monospace;
      letter-spacing: 0.15em;
      background-color: #efefef;
+     display: flex;
+     /* justify-content: center; */
  }
  
  #page {
@@ -12,7 +15,7 @@
      margin: 10px auto 10px auto;
      padding: 20px;
      border: 4px double black;
-     background-color: #fff;
+     background-color: #efefef;
  }
  
  ul {
